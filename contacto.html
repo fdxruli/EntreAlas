@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
+    <link rel="icon" type="image/png" href="img/ICON-EA-WEB-01.png" sizes="128x128">
+    <title>Contacto Entre-Alas</title>
+</head>
+<body>
+    <nav class="menu">
+        <a class="logo" href="index.html"><img src="img/LOGO-EA-WEB-01-01.png" alt="Logotipo EA"></a>
+        <ul class="enlaces">
+            <li class="item2"><a href="conocenos.html">Conócenos</a>
+            </li>
+            <li class="item2"><a href="reserva.html">Reserva</a></li>
+            <li class="item button"><a href="tel:+529631123029"><span class="fas fa-phone icon"></span>9631123029</a></li>
+        </ul>
+    </nav>
+    <main id="contacto">
+        <section class="info-contacto">
+            <div class="info">
+                <h2>¡Comunicate con nosotros!</h2>
+                <ul>
+                    <li><a href="tel:+529631123029"><span class="fas fa-phone icon"></span>9631123029</a></li>
+                    <li><a href="" target="_blank"><span class="fas fa-map-marker-alt icon"></span>Villa Flores, 20 de Abril, Juan Sabines, Paraiso, <br> Chamic*, Flore de Mayo*</a></li>
+                    <li><a href="mailto:contacto.entrealas@gmail.com"><span class="fas fa-envelope icon"></span>contacto.entrealas@gmail.com</a></li>
+                </ul>
+            </div>
+        </section>
+        <section id="sec-form-contacto">
+            <h2>¿Quieres decirnos algo?</h2>
+            <p>Escucharemos todas tus dudas y sugerencias.</p>
+            <form id="contact-form" action="">
+                <fieldset>
+                    <label for="nombre">Nombre:<abbr title="Campo requerido">*</abbr></label>
+                    <input type="text" name="nombre" id="nombre" placeholder="Nombre" required pattern="[A-Za-z]+" minlength="2" maxlength="64">
+                    <label for="email">Email:<abbr title="Campo requerido">*</abbr></label>
+                    <input type="text" name="email" placeholder="Email" required>
+                    <label for="tlf">Teléfono:</label>
+                    <input type="tel" name="tlf" id="tlf" placeholder="Teléfono" pattern="[0-9]+" minlength="9" maxlength="10">
+                    <label for="asunto">Asunto:<abbr title="Campo requerido">*</abbr></label>
+                    <input type="text" name="asunto" id="asunto" placeholder="Asunto" required pattern="[A-Za-z]+" minlength="2" maxlength="128">
+                    <label for="mensaje">Mensaje:<abbr title="Campo requerido">*</abbr></label>
+                    <textarea name="mensaje" id="mensaje" rows="5" cols="10" required></textarea>
+                </fieldset>
+                <input type="checkbox" name="aviso-legal" value="politicas" required>
+                <label for="aviso-legal">He leído y acepto la política de privacidad y el aviso legal<abbr title="Campo requerido">*</abbr></label>
+                <input type="submit" value="Enviar"></input>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <a class="logo" href="index.html"><img src="img/LOGO-EA-WEB-01-01.png" alt="Logotipo Sushi"></a>
+        <ul class="rrss">
+            <li><a href="https://www.facebook.com/profile.php?id=100087646261018" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="http://wa.me/9631123029" target="_blank"><i class="fab fa-whatsapp"></i></a></li>
+        </ul>
+        <ul class="menu-footer">
+            <li class="item"><a href="contacto.html">Contacto</a></li>
+            <li class="item"><a href="conocenos.html">Conócenos</a></li>
+            <li class="item"><a href="reserva.html">Reserva</a></li>
+            <li class="item"><a href="#">Política de Privacidad</a></li>
+            <li class="item"><a href="#">Política de Cookies</a></li>
+            <li class="item"><a href="#">Aviso Legal</a></li>
+        </ul>
+    </footer>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
+</body>
+</html>
